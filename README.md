@@ -12,3 +12,15 @@ docker run -d -p 9001:80  flask_image
 docker build -t  fastapi_image .
 
 docker run -d -p 9002:80  fastapi_image
+
+
+## api调用结果
+
+flask api：
+
+<img src="imgs/flask.png" />
+
+fastapi  api:
+
+<img src="imgs/fastapi.png" />
+
