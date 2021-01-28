@@ -6,4 +6,4 @@ app=Flask(__name__)
 
 @app.route('/test')
 def test():
-    return 'hello flask'
+    return 'hello fastapi'

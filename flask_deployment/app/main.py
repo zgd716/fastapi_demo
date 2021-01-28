@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/test")
 def test():
-    return 'hello fastapi'
+    return 'hello flask'

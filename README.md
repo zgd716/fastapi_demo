@@ -1,4 +1,10 @@
-# python demo
-flask docker部署
+# python api 部署 demo
 
-fastapi docker部署
+## flask docker部署
+
+docker build -t  flask_image .
+
+docker run -d -p 9001:80  flask_image
+
+
+## fastapi docker部署
