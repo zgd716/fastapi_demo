@@ -1,3 +1,2 @@
-FROM tiangolo/meinheld-gunicorn-flask:python3.6
-
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
 COPY ./app /app
