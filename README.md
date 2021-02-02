@@ -12,3 +12,9 @@ docker run -d -p 9001:80  flask_image
 docker build -t  fastapi_image .
 
 docker run -d -p 9002:80  fastapi_image
+
+
+## django docker部署
+
+docker build -t django .
+docker run -d -p 9999:80 -e VARIABLE_NAME="application" django
